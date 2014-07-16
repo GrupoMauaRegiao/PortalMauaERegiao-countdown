@@ -1,0 +1,54 @@
+@import "libs/reset.sass"
+@import "typography.sass"
+
+// FlipClock customizations
+.flip-clock-divider
+  .flip-clock-label
+    font-family: $default
+    font-size: 9px
+    text-transform: uppercase
+    color: white
+//end FlipClock customizations
+
+body
+  background: url("../images/background.jpg") repeat-x fixed
+  background-size: cover
+  padding: 20px 0 0
+
+.layout
+  width: 960px
+  margin: 0 auto
+
+  .social
+    margin: 0 0 30px 0
+    text-align: right
+
+  .call-up
+    margin: 50px 0
+
+    h1,
+    ul li
+      color: white
+      font-family: $default
+      text-align: center
+      font-size: 30px
+
+      span
+        border-bottom: 1px solid white
+
+    ul
+      margin: 20px 0 0
+
+      li
+        list-style-type: square
+        font-size: 20px
+        margin: 10px 0 10px 20px
+
+  .left
+    h1,
+    ul li
+      text-align: left
+
+  .timer
+    width: 645px
+    margin: 0 auto
