@@ -1,7 +1,7 @@
 PortalCountDown   = {}
 
 PortalCountDown.apps =
-  #
+  # Adds countdown with the difference between Release Day and Today
   countdown: ->
     timer = $ '.countdown'
     currentDate = new Date $('.custom-script').attr 'data-fulldate'
